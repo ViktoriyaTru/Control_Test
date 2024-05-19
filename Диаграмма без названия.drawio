@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2024-05-19T08:10:11.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="2NOq4nVRz-Db3acgjfFl" version="24.3.1" type="github">
+  <diagram name="Страница — 1" id="GPHygkDVBCqmsvLALvjp">
+    <mxGraphModel dx="1042" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfhJEoYE1-Z-z6o0Bs7I-1" target="mfhJEoYE1-Z-z6o0Bs7I-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="120" />
+              <mxPoint x="400" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfhJEoYE1-Z-z6o0Bs7I-2" target="mfhJEoYE1-Z-z6o0Bs7I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-2" value="string[] input&lt;div&gt;int i = 0&lt;/div&gt;&lt;div&gt;int count =0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfhJEoYE1-Z-z6o0Bs7I-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="270" />
+              <mxPoint x="400" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-4" value="string[] result = new string[input.Length]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfhJEoYE1-Z-z6o0Bs7I-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-18" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mfhJEoYE1-Z-z6o0Bs7I-10">
+          <mxGeometry x="-0.1705" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfhJEoYE1-Z-z6o0Bs7I-8" target="mfhJEoYE1-Z-z6o0Bs7I-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-16" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mfhJEoYE1-Z-z6o0Bs7I-15">
+          <mxGeometry x="-0.3723" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-8" value="&lt;div&gt;int i = 0&lt;/div&gt;&lt;div&gt;&amp;nbsp;input[i].Length &amp;lt;= 3&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-14" value="&amp;nbsp;result[i] = input[i]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfhJEoYE1-Z-z6o0Bs7I-19" target="mfhJEoYE1-Z-z6o0Bs7I-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="490" />
+              <mxPoint x="270" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfhJEoYE1-Z-z6o0Bs7I-19" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
